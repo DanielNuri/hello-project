@@ -1,0 +1,239 @@
+* {
+    font-family: Ralway, sans-serif;
+    margin: 0;
+  }
+    
+    body {
+        width: 100%;
+        box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
+    
+    .main-header {
+        width: 80%;
+        height: 650px;
+        background: url(assets/44d2170c6827090c664a069a115001d3.jpg);
+        position: absolute;
+        margin: 0 142px;
+    }
+    
+    .logo {
+        background: url(assets/SP01.png);
+        height: 47.976078033447266px;
+        width: 47.97711181640625px;
+        position: absolute;
+        top: 10px;
+        left: 188px;
+    }
+
+    .header-titles {
+        width: 800px;
+        position: absolute;
+        top: 250px;
+        left: 175px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .title1 {
+        color: white;
+        height: 26px;
+        font-family: Raleway;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0.64em;
+        text-align: center;
+    }
+    
+    .title2 {
+        border-radius: nullpx;
+        color: #FFFFFF;
+    }
+    
+    .btn-learn-more {
+        width: 172px;
+        height: 42px;
+        background-color: #FDE500;
+        font-family: Raleway;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 13px;
+        letter-spacing: 0.37em;
+        text-align: center;
+    }
+    
+    .margin {
+        margin: 10px 0px;
+    }
+    
+    
+    .section2 {
+        height: 200px;
+        width: 80%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: 700px;
+        justify-content: space-between;
+        margin: 0 142px;
+    }
+    
+    .mountain-p {
+        width: 800px;
+        position: absolute;
+        top: 145px;
+        left: 175px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align:center
+    }
+    
+    .section3 {
+        background: #F4F4F4;
+        width: 80%;
+        margin: 0 142px;
+        position: absolute;
+        top: 1000px;
+        height: 1000px;
+    }
+    
+    .section3-first-flex {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        top: 45px;
+        left: 277px;
+    }
+    
+    .section3-title1 {
+        color: black;
+        height: 26px;
+        font-family: Raleway;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0.64em;
+        text-align: center;
+    }
+    
+    .section3-title2 {
+        color: black;
+        text-align: center;
+    }
+    
+    .section3-second-flex {
+        width: 100%;
+        position: absolute;
+        top: 309px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .design {
+        width: 274px;
+        height: 300px;
+        background-color: white;
+    }
+    
+    .design>img {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .section3-second-flex {
+        position: absolute;
+        top: 309px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .design {
+        width: 274px;
+        height: 300px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .profssion {
+        font-family: Raleway;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 22px;
+        letter-spacing: 0.25em;
+        text-align: center;
+    }
+    
+    .skills {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        top: 650px;
+        width: 100%;
+    }
+    
+    .skill {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        width: 274px;
+        height: 200px;
+        margin-left: 10px;
+    }
+    
+    .skill>span {
+        background: #FDE500;
+        width: 80%;
+        height: 5px;
+    }
+    
+    p {
+        margin: 0;
+    }
+    
+    .skill>p {
+        margin: 0;
+        text-align: left;
+        margin-left: 10px;
+    }
+    
+    .section4 {
+        position: absolute;
+        background-color: black;
+        display: flex;
+        width: 80%;
+        align-items: center;
+        justify-content: space-around;
+        top: 2000px;
+        height: 250px;
+        margin: 0 142px;
+    }
+    
+    .footer-item {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 274px;
+        height: 60px;
+        border-radius: 5px;
+    }
